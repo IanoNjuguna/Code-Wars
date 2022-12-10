@@ -9,9 +9,9 @@
  * Return: speed_cmh (Success)
  */
 
-int cockroach_speed(double s)
+int cockroach_speed(double s, int speed_cmh)
 {
-	int speed_cmh = floor(s * 27.7778);
+	speed_cmh = floor(s * 27.7778);
 
 	return (speed_cmh);
 }
